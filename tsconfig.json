@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "es5",
+    "module": "commonjs",
+    "lib": [
+      "dom",
+      "es5",
+      "es2015"
+    ],
+    "outDir": "./build",
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "jsx": "react"
+  },
+  "include": [
+    "./App.tsx",
+    "./importMe.ts"
+  ],
+  "files": [
+    "declarations.d.ts"
+  ]
+}
